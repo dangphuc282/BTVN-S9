@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #000;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links .btn-outline {
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 6px;
+  }
+  
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .hero .highlight {
+    color: #3a82f7;
+  }
+  
+  .hero .subheading {
+    margin: 20px 0;
+    color: #aaa;
+  }
+  
+  .cta-buttons {
+    margin: 30px 0;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background: #3a82f7;
+    color: white;
+  }
+  
+  .btn-secondary {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 40px;
+  }
+   
+  .feature {
+    text-align: center;
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .card {
+    flex: 1 1 300px;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+  }
+  
+  .card.orange {
+    background: #ff6600;
+  }
+  
+  .card.purple {
+    background: #a64dff;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero h1 {
+      font-size: 24px;
+    }
+  
+    .hero-image img {
+      height: auto;
+    }
+  
+    .cards {
+      flex-direction: column;
+    }
+  }
+  
