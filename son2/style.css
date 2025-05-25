@@ -49,12 +49,12 @@ nav {
     cursor: pointer;
 }
 
-/* ... (giữ nguyên các phần khác của styles.css) ... */
+
 
 .hero {
     padding: 50px;
     background-color: #fff9e5;
-    position: relative; /* Thêm để định vị tuyệt đối cho .course-info-card */
+    position: relative; 
 }
 
 .hero-content {
@@ -65,7 +65,7 @@ nav {
 
 .hero-image {
     flex: 1;
-    position: relative; /* Định vị tuyệt đối dựa trên hero-image */
+    position: relative; 
 }
 
 .image-placeholder {
@@ -118,40 +118,40 @@ nav {
 
 .course-info-card {
     display: flex;
-    flex-direction: column; /* Xếp theo chiều dọc */
-    gap: 10px; /* Khoảng cách giữa các mục */
+    flex-direction: column; 
+    gap: 10px; 
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 200px; /* Thu nhỏ chiều rộng */
-    position: absolute; /* Định vị tuyệt đối */
-    bottom: 20px; /* Cách đáy 20px */
-    right: 700px; /* Cách phải 20px */
-    z-index: 1; /* Đảm bảo nằm trên hình ảnh */
+    width: 200px; 
+    position: absolute; 
+    bottom: 20px;
+    right: 700px; 
+    z-index: 1; 
     
 }
 
 .course-item {
     display: flex;
     align-items: center;
-    gap: 8px; /* Giảm khoảng cách giữa icon và văn bản */
+    gap: 8px; 
 }
 
 .course-item .icon {
-    font-size: 20px; /* Thu nhỏ icon */
+    font-size: 20px; 
 }
 
 .course-item p {
     margin: 0;
-    font-size: 12px; /* Thu nhỏ font */
+    font-size: 12px;
     font-weight: 600;
 }
 
 .course-item p span {
     font-weight: 400;
     color: #555;
-    font-size: 12px; /* Thu nhỏ font phụ */
+    font-size: 12px; 
 }
 
 .stats {
@@ -183,7 +183,7 @@ nav {
 .stat-item2{
     display: flex;
 }
-/* ... (giữ nguyên các phần khác của styles.css) ... */
+
 .popular-courses{
     padding: 44px;
     
