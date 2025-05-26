@@ -76,7 +76,7 @@
     background-color: rgb(9, 144, 144);
     color: white;
     border-radius: 5px;
-    padding: 15px 25px;
+    padding: 10px 25px;
     margin-top: 20px;
     border: none;
   }
@@ -105,3 +105,90 @@
     margin-top: 10px;
     font-size: small;
 }
+
+
+.fa-circle-play {
+    color:  rgb(9, 144, 144);
+  font-size: 30px;
+  margin: 0 30px;
+  vertical-align: middle;
+  line-height: 1;
+  
+  }
+.fa-laptop{
+    font-size: 60px;
+    color: blueviolet;
+
+}
+.fa-message{
+    font-size: 60px;
+    color: blue;
+}
+.fa-file{
+    font-size: 60px;
+    color: green;
+}
+.the h3{
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      padding-right: 0;
+      width: 100%;
+    }
+  
+    .container {
+      flex-direction: column;
+      margin: 20px;
+      gap: 20px;
+    }
+  
+    .title {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .title h1 {
+      font-size: 36px;
+    }
+  
+    .img {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .img img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    footer {
+      padding: 20px;
+      margin-right: 0;
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .the {
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+    }
+  }
+  
